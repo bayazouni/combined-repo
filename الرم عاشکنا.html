@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>nahide-babashli-anlasanaآهنگ
+</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+<style>.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.comment-content p {
+  margin: 0;
+}</style>
+</head>
+<body>
+	<header>
+		<h1>nahide-babashli-anlasanaآهنگ
+
+</h1>
+	</header>
+	<section id="cover">
+		<img src="https://mahni-music.com/wp-content/uploads/2022/02/001-101.jpg" alt="کاور آهنگ الرم عاشکنا یار" style="display: block; margin-left: auto; margin-right: auto;">
+
+		<p style="text-align: center; font-size: 24px;>آهنگ الرم عاشکنا</p>
+	</section>
+	<section id="player">
+		<audio controls>
+			<source src="https://dl1.mahni-music.com/media/2022/02/24/nahide-babashli.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</section>
+	<section id="download">
+		<h2>دانلود</h2>
+		<ul>
+			<li><a href="https://dl1.mahni-music.com/media/2022/02/24/nahide-babashli.mp3">128کیفیت</a></li>
+			<li><a href="https://dl1.mahni-music.com/media/2022/02/24/nahide-babashli.mp3">320کيفيت</a></li>
+		</ul>
+	</section>
+	<section id="lyrics">
+		<h2>متن آهنگ الرم عاشکنا یار</h2>
+		<p> 
+
+Kendimi esir aldım . . .
+خودم را اسیر و گرفتار کردم . . .
+
+ 
+
+ 
+
+Çalmadı yine telefonlar
+باز هم زنگ تلفنها به صدا در نیومد
+
+ 
+
+ 
+
+Alışırım sanmıştım . . .
+فکر میکردم که عادت میکنم . . .
+
+ 
+
+ 
+
+Yüreğimde sancım var
+در دلم دردی وجود داره
+
+ 
+
+Gel etme nazlı güneş
+بیا و نکن ای خورشید نازنین من
+
+ 
+
+ 
+
+Sensin gönlüme eş
+تو هستی برای دل من جفت
+
+ 
+
+ 
+
+Beni biraz anlasana
+چی میشه منو کمی درک کنی
+
+ 
+
+ 
+
+Ölürüm aşkına yar
+دارم میمیرم از عشقت ای یار</p>
+
+Ölürüm diyar diyar
+میمیرم دیار به دیار ( در هر کجا )
+
+ 
+
+ 
+
+Beni biraz anlasana
+چی میشه کمی منو درک کنی
+
+ 
+
+ 
+
+Oooooof sarıl bana 
+اووووف در آغوشم بگیر . . .
+
+ 
+
+ 
+
+Beni biraz anlasana
+کاش کمی من رو درک کنی
+	</section>
+	<section id="comments">
+	<h2>نظرات</h2>
+	<form onsubmit="event.preventDefault(); saveComment();">
+		<label for="name">نام:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="comment">نظر شما:</label><br>
+		<textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
+		<input type="submit" value="ثبت نظر">
+	</form>
+	<div id="comments-list"></div>
+</section>
+
+<script>
+
+		function saveComment() {
+			var name = document.getElementById('name').value;
+			var comment = document.getElementById('comment').value;
+
+			// چک کردن مقادير خالي
+			if (name.trim() === '' || comment.trim() === '') {
+				alert('لطفا نام و نظر خود را وارد کنيد.');
+				return;
+			}
+
+			// ايجاد شيء براي نظر جديد
+			var newComment = {
+				name: name,
+				comment: comment
+			};
+
+			// دريافت نظرات قبلي از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// اضافه کردن نظر جديد به آرايه نظرات
+			comments.push(newComment);
+
+			// ذخيره نظرات در localStorage
+			localStorage.setItem('comments', JSON.stringify(comments));
+
+			// بازسازي نمايش نظرات
+			displayComments();
+		}
+
+		function displayComments() {
+			// دريافت نظرات از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// ايجاد HTML براي نمايش نظرات
+			var html = '';
+			for (var i = 0; i < comments.length; i++) {
+				html += '<div class="comment">';
+				html += '<h3>' + comments[i].name + '</h3>';
+				html += '<p>' + comments[i].comment + '</p>';
+				html += '</div>';
+			}
+
+			// نمايش نظرات در صفحه
+			document.getElementById('comments-list').innerHTML = html;
+		}
+
+		// نمايش نظرات هنگام بارگيري صفحه
+		document.addEventListener('DOMContentLoaded', function() {
+			displayComments();
+		});
+	</script>
+</head>
+</script>
+</body>
+</html>

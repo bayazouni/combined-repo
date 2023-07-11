@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>آهنگ قاف علیرضا طلیسچی</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+<style>.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.comment-content p {
+  margin: 0;
+}</style>
+</head>
+<body>
+	<header>
+		<h1>آهنگ قاف علیرضا طلیسچی</h1>
+	</header>
+	<section id="cover">
+		<img src="https://rozmusic.com/wp-content/uploads/2021/01/Alireza-Talischi-Ghaaf.jpg" alt="کاور آهنگ قاف">
+		<p style="text-align: center; font-size: 24px;>اهنگ قاف علیرضا طلیسچی</p>
+	</section>
+	<section id="player">
+		<audio controls>
+			<source src="https://irsv.upmusics.com/99/Alireza%20Talischi%20-%20Ghaf%20(320).mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</section>
+	<section id="download">
+		<h2>دانلود</h2>
+		<ul>
+			<li><a href="https://irsv.upmusics.com/99/Alireza%20Talischi%20-%20Ghaf%20(128).mp3">کیفیت ۱۲۸</a></li>
+			<li><a href="https://irsv.upmusics.com/99/Alireza%20Talischi%20-%20Ghaf%20(320).mp3">کیفیت 320</a></li>
+		</ul>
+	</section>
+	<section id="lyrics">
+		<h2>متن آهنگ</h2>
+		<p>───┤ ♩♬♫♪♭ ├───
+
+بارون اومد و یادم داد؛ تو زورت بیشتره!
+ممکنه هر دفعه اونجوری؛ که میخواستی پیش نره…
+خاطره هام داره، خوابو میگیره ازم!
+دوری و من دیگه ته دنیام؛ قلبت نوک قله ی قافه
+من که تو زندگیم هیشکی نیست؛ چه دروغی دارم بگم آخه؟!
+
+شعر و ملودی : علیرضا طلیسچی
+این همه دوری، نه واسه تو خوبه نه من…
+طرف تو بارون نمیاد؛ نمیشی دلتنگ زیاد!
+میدونی چند وقته دلم تورو میخواد؟!
+اینجوری نکن با من هی دوری نکن با من
+این شوخی خوبی نیست! من بی تو میمیرم واقعا!
+اینجوری نرو سخته… چرا قلب تو بی رحمه؟
+کی غیر تو با قلبش؛ این حال منو میفهمه؟
+موندم با اشک و آهم؛ با چشمای چشم به راهم!
+کاشکی میشد یه قیچی؛ میخورد رو خاطرات با هم!
+من دوست دارم؛ این بده دوریت ازم
+
+تنظیم قطعه : امیربهادر دهقان
+اینقده که زندم، به زور یه رویای دور!
+اینجوری نکن با من هی دوری نکن با من
+این شوخی خوبی نیست! من بی تو میمیرم واقعا!
+اینجوری نرو سخته… چرا قلب تو بی رحمه؟
+کی غیر تو با قلبش؛ این حال منو میفهمه؟
+
+───┤ ♩♬♫♪♭ ├───
+
+</p>
+	</section>
+	<section id="comments">
+	<h2>نظرات</h2>
+	<form onsubmit="event.preventDefault(); saveComment();">
+		<label for="name">نام:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="comment">نظر شما:</label><br>
+		<textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
+		<input type="submit" value="ثبت نظر">
+	</form>
+	<div id="comments-list"></div>
+</section>
+
+<script>
+
+		function saveComment() {
+			var name = document.getElementById('name').value;
+			var comment = document.getElementById('comment').value;
+
+			// چک کردن مقادیر خالی
+			if (name.trim() === '' || comment.trim() === '') {
+				alert('لطفا نام و نظر خود را وارد کنید.');
+				return;
+			}
+
+			// ایجاد شیء برای نظر جدید
+			var newComment = {
+				name: name,
+				comment: comment
+			};
+
+			// دریافت نظرات قبلی از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// اضافه کردن نظر جدید به آرایه نظرات
+			comments.push(newComment);
+
+			// ذخیره نظرات در localStorage
+			localStorage.setItem('comments', JSON.stringify(comments));
+
+			// بازسازی نمایش نظرات
+			displayComments();
+		}
+
+		function displayComments() {
+			// دریافت نظرات از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// ایجاد HTML برای نمایش نظرات
+			var html = '';
+			for (var i = 0; i < comments.length; i++) {
+				html += '<div class="comment">';
+				html += '<h3>' + comments[i].name + '</h3>';
+				html += '<p>' + comments[i].comment + '</p>';
+				html += '</div>';
+			}
+
+			// نمایش نظرات در صفحه
+			document.getElementById('comments-list').innerHTML = html;
+		}
+
+		// نمایش نظرات هنگام بارگیری صفحه
+		document.addEventListener('DOMContentLoaded', function() {
+			displayComments();
+		});
+	</script>
+</head>
+</script>
+</body>
+</html>

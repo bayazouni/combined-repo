@@ -1,0 +1,429 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Eminem - You Dont Knowآهنگ</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+<style>.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.comment-content p {
+  margin: 0;
+}</style>
+</head>
+<body>
+	<header>
+		<h1>Eminem - You Dont Knowآهنگ</h1>
+	</header>
+	<section id="cover">
+		<img src="You-Dont-Know.jpg" alt="کاور آهنگyou dont know" style="display: block; margin-left: auto; margin-right: auto;">
+		<p style="text-align: center; font-size: 24px;>آهنگ you dont kmow</p>
+	</section>
+	<section id="player">
+		<audio controls>
+			<source src="https://dl.behmelody.in/1400/Ordibehesht/Eminem%20-%20You%20Dont%20Know.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</section>
+	<section id="download">
+		<h2>دانلود</h2>
+		<ul>
+			<li><a href="https://dl.behmelody.in/1400/Ordibehesht/Eminem%2C%2050%20Cent%2C%20Cahis%2C%20Lloyd%20Banks%20-%20You%20Dont%20Know.mp3" type">128کیفیت </a></li>	
+			<li><a href="https://dl.behmelody.in/1400/Ordibehesht/Eminem%20-%20You%20Dont%20Know.mp3" type">320کیفیت</a></li>
+		</ul>
+	</section>
+	<section id="lyrics">
+		<h2>Eminem - You Dont Knowمتن آهنگ</h2>
+		<p>Yeah
+اره
+
+I know sometimes
+میدونم بعضی وقتا
+
+Things may not always make sense to you right now
+واست یه سری چیزا ممکنه هیچجوره با عقل جور در نیاد
+
+But ayy
+What’d Daddy always tell you?
+اما بابایی همیشه بهت چی میگه؟
+
+Straighten up, little soldier, stiffen up that upper lip
+قوی باش سرباز کوچولو ، لب و لوچتو آویزون نکن (غصه نخور)
+
+What you cryin’ about?
+واسه ی چی داری گریه میکنی
+
+You got me
+تو ‘من’ رو داری
+Hailie, I know you miss your mom, and I know you miss your dad
+هیلی، میدونم دلت برای مامانت تنگ شده ، و میدونم دلت برای بابات تنگ شده
+
+When I’m gone
+وقتایی که من رفتم
+
+But I’m tryin’ to give
+You the life that I never had
+اما من دارم تلاش میکنم تا زندگی ای که خودم هیچوقت نداشتمش رو برای تو بسازم
+
+I can see you’re sad, even when you smile, even when you laugh
+من میتونم ببینم که تو ناراحتی ، حتی وقتایی که لبخند میزنی ، حتی وقتایی که میخندی
+
+I can see it in your eyes, deep inside you wanna cry
+میتونم اینو توی چشمات ببینم که در عمق وجودت میخوای گریه کنی
+
+‘Cause you’re scared, I ain’t there
+چون ترسیدی که من اونجا پیشت نیستم
+
+Daddy’s with you in your prayers
+بابایی تو دعاهات همراهته
+No more cryin’, wipe them tears
+دیگه گریه بسه ، اون اشکاتو پاک کن
+
+Daddy’s here, no more nightmares
+بابایی اینجاست ، دیگه خبری از کابوس نیست
+
+We gon’ pull together through it
+ما قراره با همدیگه ازین مشکلات عبور کنیم
+
+We gon’ do it, Lainie—Uncle’s crazy, ain’t he?
+حتما اینکارو میکنیم ، لینی دایی دیوونهست مگه نه ؟
+Yeah, but he loves you, girl, and you better know it
+اره ولی خب اون عاشقته دختر، و بهتره اینو بدونی
+
+We’re all we got in this world
+When it spins, when it swirls
+When it whirls, when it twirls
+ما همه چیزِ همدیگه هستیم (تو دنیا فقط همدیگه رو داریم)
+وقتی که این کره خاکی میچرخه و دنیا میگذره
+
+Two little beautiful girls
+دوتا دختر کوچولوی خوشگل
+
+Lookin’ puzzled, in a daze, I know it’s confusin’ you
+مات و مبهوت به این قضایا نگاه میکنید ، من میدونم چی باعث شده متحیر بشید
+
+Daddy’s always on the move
+بابایی همیشه در حال سفره
+
+Momma’s always on the news
+مامانی همیشه توی اخباره
+
+I try to keep you sheltered from it
+من تلاش شمارو از این قضایا دور نگه دارم
+
+But somehow it seems
+اما بنظر میرسه
+
+The harder that I try to do that, the more it backfires on me
+هرچقدر که سخت تر بخاطرش تلاش میکنم نتیجش برعکس میشه
+(و شما بیشتر از قبل از این ماجراها با خبر میشید)
+
+All the things growin’ up as Daddy that he had to see
+همه چیز رشد میکنه مثل بابایی که مجبوره اینارو ببینه (و تحمل کنه)
+Daddy don’t want you to see, but you see just as much as he did
+بابایی نمیخواست شما اینارو ببینید اما خب شما دقیقا به اندازه ی خود بابایی شاهد این اتفاقات بودید
+
+We did not plan it to be this way, your mother and me
+ما قصد نداشتیم که رابطمون این شکلی بشه ، خودم و مامانت رو میگم
+
+But things have got so bad between us
+اما خب ماجراهای خیلی بدی بین ما دو تا رخ داده
+
+I don’t see us ever bein’
+Together ever again, like we used to be when we was teenagers
+بعید میدونم بازم بتونیم باهمدیگه باشیم ، مثل اونموقع ها که نوجوون بودیم
+
+But then, of course, everything always happens for a reason
+ولی خب قطعا هرچیزی بخاطر یه دلیل خاصی اتفاق میوفته
+
+I guess it was never meant to be
+فکر کنم ما هیچوقت قسمتِ همدیگه نبودیم
+
+But it’s just something
+We have no control over, and that’s what destiny is
+ولی خب یه چیزی هست که ما نمیتونیم کنترلش کنیم و اونم اسمش “سرنوشت” عه
+
+But no more worries,rest your head and go to sleep
+ولی خب نگرانی دیگه بسه یکم به خودت استراحت بده و بخواب
+
+Maybe one day we’ll wake up and this’ll all just be a dream
+شاید یه روز بیدار بشیم و ببینیم همه ی اینا فقط یه خواب بوده
+Now hush, little baby, don’t you cry
+هیس ، بچه کوچولو ، گریه نکنی هاا
+
+Everything’s gonna be alright
+همه چیز درست میشه
+
+Stiffen that upper lip up,little lady
+غصه نخور خانوم کوچولو
+
+I told ya
+بهت گفتم
+
+Daddy’s here to hold ya through the night
+بابایی اینجاست تا کل شب تورو تو بغلش بگیره
+
+I know Mommy’s not here right now, and we don’t know why
+میدونم که مامانی الان اینجا نیست و ما دلیلش رو نمیدونیم
+
+We fear how we feel inside
+ما از احساس درونی خودمون وحشت داریم
+
+It may seem a little crazy, pretty baby
+شاید یکم مسخره بنظر بیاد نینی خوشگل
+
+But I promise, Momma’s gon’ be alright (Heh)
+اما من قول میدم که مامانی حالش خوب میشه
+It’s funny
+خنده داره
+
+I remember back one year when
+یه سالی رو یادم که
+
+Daddy had no money
+بابایی هیچ پولی نداشت
+
+Mommy wrapped the Christmas presents up and stuck ’em under the tree
+مامانی کادو های کریسمس رو بسته بندی کرد و گذاشتشون زیر درخت کریسمس
+
+And said some of ’em were from me
+و گفت بعضی از اون کادو ها از طرف من اند
+
+’cause Daddy couldn’t buy ’em
+چون بابایی خودش نمیتونست اونارو بخره
+
+I’ll never forget that Christmas, I sat up the whole night cryin’
+هیچوقت اون کریسمس رو یادم نمیره ، کل شب رو بیدار موندم و گریه کردم
+
+‘Cause Daddy felt like a bum—see, Daddy had a job
+چون بابایی حس یه ادم بی عرضه رو داشت
+اخه ببین بابایی کلا یه شغل(وظیفه) داشت
+
+But his job was to keep the food on the table for you and Mom
+و اون هم این بود که برای تو و مامانی غذا فراهم کنه
+
+And at the time, every house that we lived in
+و اون موقع توی هر خونه ای که زندگی میکردیم
+
+Either kept gettin’ broken into and robbed or shot up on the block
+یا مدام مورد دزدی واقع میشد یا تیراندازی
+
+And your mom was savin’ money for you in a jar
+و مامانت داشت برای تو پول جمع میکرد توی یه شیشه مربا
+
+Tryin’ to start a piggy bank for you so you could go to college
+سعی میکرد یه سرمایه ی کوچیکی برات دست و پا کنه تا تو بتونی بری دانشگاه
+
+Almost had a thousand dollars, ’til someone broke in and stole it
+حدود هزار دلار جمع کرده بود تا وقتی که یه نفر بزور وارد خونه شد و دزدیدش
+
+And I know it hurt so bad it broke your momma’s heart
+و من میدونم این موضوع انقدر برای مامانت دردناک بود که قلب مادرت رو شکوند
+
+And it seemed like everything was just startin’ to fall apart
+و بنظر میرسید که همه چیز شروع کرد به فروپاشی
+Mom and Dad was arguin’ a lot
+مامان و بابا خیلی باهم جر و بحث میکردن
+
+So Momma moved back
+On to Chalmers in the flat, one bedroom apartment
+پس مامان برگشت به محله چالمرز
+توی یه اپارتمانِ تکخوابه
+
+And Dad moved back to the other side of 8 Mile on Novara
+و بابا برگشت به اونطرف 8مایل توی نووارا
+
+And that’s when Daddy went to California with his CD
+و همونموقع بود که بابا با سی دی(حاوی اهنگای خودش) به کالیفورنیا رفت
+
+And met Dr. Dre and flew you and Momma out to see me
+و داکتر دری رو ملاقات کرد
+واسه تو و مامانی بلیت گرفتم که بیاین به دیدنم
+
+But Daddy had to work, you and Momma had to leave me
+ولی خب بابایی مجبور بود کار کنه ، تو و مامانی باید منو ترک میکردید
+
+Then you started seein’ Daddy on the TV
+و بعد هم کم کم شما بابایی رو از تلوزیون میدیدین
+
+And Momma didn’t like it
+و مامانی ازین اتفاق خوشش نیومد
+
+And you and Lainie were too young to understand it
+تو و لینی برای فهمید این چیزا خیلی کوچیک بودید
+
+Papa was a rolling stone
+بابا همیشه در رفت وآمد بود
+
+Momma developed a habit
+مامان هم اون کارای همیشگیشو ادامه میداد
+
+And it all happened too fast for either one of us to grab it
+و همه‌ی اینا انقدر سریع اتفاق افتاد که هیچکدوممون نتونستیم جلوشو بگیریم
+
+I’m just sorry you were there and had to witness it first hand
+فقط متاسفم ازین که شماها اونجا حضور داشتید و
+مجبور بودید اولین نفر شاهد اون همه اتفاق بشید
+
+‘Cause all I ever wanted to do was just make you proud
+اخه تمامِ چیزی که همیشه میخواستم این بود که شماها بمن افتخار کنید
+
+Now I’m sittin’ in this empty house Just reminiscin’
+اما الان توی این خونه ی خالی نشستم و خاطرات رو مرور میکنم
+Lookin’ at your baby pictures, it just trips me out
+To see how much you both have grown
+به عکسای بچگیتون نگاه میکنم و مبهوت میمونم که جفتتون چقدر بزرگ شدید
+
+It’s almost like you’re sisters now
+انگار که باهم خواهر اید
+
+Wow, guess you pretty much are, and Daddy’s still here
+واو فکر کنم واقعا هستید ، و بابایی هنوز همینجاست
+
+Lainie, I’m talkin’ to you too, Daddy’s still here
+لینی با تو هم هستم ، بابایی هنوز همینجاست
+
+I like the sound of that, yeah, it’s got a ring to it, don’t it?
+صداش رو خیلی دوست دارم ، یه آوای خاصی داره مگه نه؟؟
+
+Sshh! Momma’s only gone for the moment
+مامان فقط برای چند لحظه از پیشمون رفته (رفتنش دائمی نیست)
+لیریک و ترجمه آهنگ Mockingbird از امینم
+
+[Chorus]
+
+Now hush, little baby, don’t you cry
+هیس ، نی نی کوچولو ، گریه نکنی هاا
+
+Everything’s gonna be alright
+همه چیز درست میشه
+
+Stiffen that upper lip up,little lady
+غصه نخور خانوم کوچولو
+
+I told ya
+بهت گفتم
+
+Daddy’s here to hold ya through the night
+بابایی اینجاست تا کل شب تورو تو بغلش بگیره
+
+I know Mommy’s not here right now, and we don’t know why
+میدونم که مامانی الان اینجا نیست و ما دلیلش رو نمیدونیم
+
+We fear how we feel inside
+ما از احساس درونی خودمون وحشت داریم
+
+It may seem a little crazy, pretty baby
+شاید یکم مسخره بنظر بیاد نینی خوشگل
+
+But I promise, Momma’s gon’ be alright (Heh)
+اما من قول میدم که مامانی حالش خوب میشه
+دنیا رو به پات میریزم
+And if you ask me to, Daddy’s gonna buy you a mockingbird
+و اگر تو ازم بخوای ، بابایی برات یه مرغ مقلد میخره
+
+I’ma give you the world
+من دنیا رو به تو می دهم
+
+I’ma buy a diamond ring for you, I’ma sing for you
+من برات یه انگشتر الماس میخرم ، من برات اواز میخونم
+
+I’ll do anything for you to see you smile
+هر کاری برات میکنم تا لبخندتو ببینم
+
+And if that mockingbird don’t sing and that ring don’t shine
+و اگر اون مرغ مقلد آواز نخوند و اون انگشتر ندرخشید
+
+I’ma break that birdie’s neck
+گردن اون پرنده رو میشکونم
+
+I’ll go back to the jeweler who sold it to ya
+برمیگردم پیش اون جواهر فروش و انگشترو به خودش میفروشم
+
+And make him eat every carat, don’t f–k with Dad! (Ha-ha!)
+و مجبورش میکنم تک تک قیراط های انگشترو بخوره
+هع بهتره با بابایی در نیوفتی (خطاب به جواهرفروش)
+</p>
+	</section>
+	<section id="comments">
+	<h2>نظرات</h2>
+	<form onsubmit="event.preventDefault(); saveComment();">
+		<label for="name">نام:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="comment">نظر شما:</label><br>
+		<textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
+		<input type="submit" value="ثبت نظر">
+	</form>
+	<div id="comments-list"></div>
+</section>
+
+<script>
+
+		function saveComment() {
+			var name = document.getElementById('name').value;
+			var comment = document.getElementById('comment').value;
+
+			// چک کردن مقادیر خالی
+			if (name.trim() === '' || comment.trim() === '') {
+				alert('لطفا نام و نظر خود را وارد کنید.');
+				return;
+			}
+
+			// ایجاد شیء برای نظر جدید
+			var newComment = {
+				name: name,
+				comment: comment
+			};
+
+			// دریافت نظرات قبلی از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// اضافه کردن نظر جدید به آرایه نظرات
+			comments.push(newComment);
+
+			// ذخیره نظرات در localStorage
+			localStorage.setItem('comments', JSON.stringify(comments));
+
+			// بازسازی نمایش نظرات
+			displayComments();
+		}
+
+		function displayComments() {
+			// دریافت نظرات از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// ایجاد HTML برای نمایش نظرات
+			var html = '';
+			for (var i = 0; i < comments.length; i++) {
+				html += '<div class="comment">';
+				html += '<h3>' + comments[i].name + '</h3>';
+				html += '<p>' + comments[i].comment + '</p>';
+				html += '</div>';
+			}
+
+			// نمایش نظرات در صفحه
+			document.getElementById('comments-list').innerHTML = html;
+		}
+
+		// نمایش نظرات هنگام بارگیری صفحه
+		document.addEventListener('DOMContentLoaded', function() {
+			displayComments();
+		});
+	</script>
+</head>
+</script>
+</body>
+</html>

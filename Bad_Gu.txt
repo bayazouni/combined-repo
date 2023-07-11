@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Billie_Eilish-_Bad_Guآهنگ
+
+</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+<style>.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.comment-content p {
+  margin: 0;
+}</style>
+</head>
+<body>
+	<header>
+		<h1>Billie_Eilish-_Bad_Guآهنگ
+</h1>
+	</header>
+	<section id="cover">
+		<img src="fdg.jpg" alt="کاور آهنگ بدگای" style="display: block; margin-left: auto; margin-right: auto;">
+
+		<p style="text-align: center; font-size: 24px;>آهنگ بیلی آیلیش</p>
+	</section>
+	<section id="player">
+		<audio controls>
+			<source src="https://dl.myeasymusic.ir/401/10/Bad%20Guy.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</section>
+	<section id="download">
+		<h2>دانلود</h2>
+		<ul>
+			<li><a href="https://dl.myeasymusic.ir/401/10/Bad%20Guy.mp3">کيفيت 128</a></li>
+			<li><a href="https://dl.myeasymusic.ir/401/10/Bad%20Guy.mp3">کيفيت 320</a></li>
+		</ul>
+	</section>
+	<section id="lyrics">
+		<h2>متن آهنگBillie_Eilish-_Bad_Gu</h2>
+		<p>White shirt now red, my bloody nose
+Sleepin', you're on your tippy toes
+Creepin' around like no one knows
+Think you're so criminal
+Bruises on both my knees for you
+Don't say thank you or please
+I do what I want when I'm wanting to
+My soul? So cynical
+So you're a tough guy
+Like it really rough guy
+Just can't get enough guy
+Chest always so puffed guy
+I'm that bad type
+Make your mama sad type
+Make your girlfriend mad tight
+Might seduce your dad type
+I'm the bad guy, duh
+I'm the bad guy
+I like it when you take control
+Even if you know that you don't
+Own me, I'll let you play the role
+I'll be your animal
+My mommy likes to sing along with me
+But she won't sing this song
+If she reads all the lyrics
+She'll pity the men I know
+So you're a tough guy
+Like it really rough guy
+Just can't get enough guy
+Chest always so puffed guy
+I'm that bad type
+Make your mama sad type
+Make your girlfriend mad tight
+Might seduce your dad type
+I'm the bad guy, duh
+I'm the bad guy, duh
+I'm only good at being bad, bad
+I like when you get mad
+I guess I'm pretty glad that you're alone
+You said she's scared of me?
+I mean, I don't see what she sees
+But maybe it's 'cause I'm wearing your cologne
+I'm a bad guy
+I'm, I'm a bad guy
+Bad guy, bad guy
+I'm a bad
+</p>
+
+
+	</section>
+	<section id="comments">
+	<h2>نظرات</h2>
+	<form onsubmit="event.preventDefault(); saveComment();">
+		<label for="name">نام:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="comment">نظر شما:</label><br>
+		<textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
+		<input type="submit" value="ثبت نظر">
+	</form>
+	<div id="comments-list"></div>
+</section>
+
+<script>
+
+		function saveComment() {
+			var name = document.getElementById('name').value;
+			var comment = document.getElementById('comment').value;
+
+			// چک کردن مقادير خالي
+			if (name.trim() === '' || comment.trim() === '') {
+				alert('لطفا نام و نظر خود را وارد کنيد.');
+				return;
+			}
+
+			// ايجاد شيء براي نظر جديد
+			var newComment = {
+				name: name,
+				comment: comment
+			};
+
+			// دريافت نظرات قبلي از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// اضافه کردن نظر جديد به آرايه نظرات
+			comments.push(newComment);
+
+			// ذخيره نظرات در localStorage
+			localStorage.setItem('comments', JSON.stringify(comments));
+
+			// بازسازي نمايش نظرات
+			displayComments();
+		}
+
+		function displayComments() {
+			// دريافت نظرات از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// ايجاد HTML براي نمايش نظرات
+			var html = '';
+			for (var i = 0; i < comments.length; i++) {
+				html += '<div class="comment">';
+				html += '<h3>' + comments[i].name + '</h3>';
+				html += '<p>' + comments[i].comment + '</p>';
+				html += '</div>';
+			}
+
+			// نمايش نظرات در صفحه
+			document.getElementById('comments-list').innerHTML = html;
+		}
+
+		// نمايش نظرات هنگام بارگيري صفحه
+		document.addEventListener('DOMContentLoaded', function() {
+			displayComments();
+		});
+	</script>
+</head>
+</script>
+</body>
+</html>

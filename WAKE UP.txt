@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>آهنگWAKE UP
+</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+<style>.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.comment-content p {
+  margin: 0;
+}</style>
+</head>
+<body>
+	<header>
+		<h1>آهنگWAKE UP
+</h1>
+	</header>
+	<section id="cover">
+		<img src="old.jpg" alt="centered image" style="width: 100%; display: block; margin-left: auto; margin-right: auto;">
+
+		<p style="text-align: center; font-size: 24px;>آهنگ Death Lotto</p>
+	</section>
+	<section id="player">
+		<audio controls>
+			<source src="https://fimahang.ir/get/pre/music/1150" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</section>
+	<section id="download">
+		<h2>دانلود</h2>
+		<ul>
+			<li><a href="https://fimahang.ir/get/pre/music/1150">128کیفیت</a></li>
+			<li><a href="https://fimahang.ir/get/pre/music/1150">320کيفيت</a></li>
+		</ul>
+	</section>
+
+	
+	<section id="comments">
+	<h2>نظرات</h2>
+	<form onsubmit="event.preventDefault(); saveComment();">
+		<label for="name">نام:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="comment">نظر شما:</label><br>
+		<textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
+		<input type="submit" value="ثبت نظر">
+	</form>
+	<div id="comments-list"></div>
+</section>
+
+<script>
+
+		function saveComment() {
+			var name = document.getElementById('name').value;
+			var comment = document.getElementById('comment').value;
+
+			// چک کردن مقادير خالي
+			if (name.trim() === '' || comment.trim() === '') {
+				alert('لطفا نام و نظر خود را وارد کنيد.');
+				return;
+			}
+
+			// ايجاد شيء براي نظر جديد
+			var newComment = {
+				name: name,
+				comment: comment
+			};
+
+			// دريافت نظرات قبلي از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// اضافه کردن نظر جديد به آرايه نظرات
+			comments.push(newComment);
+
+			// ذخيره نظرات در localStorage
+			localStorage.setItem('comments', JSON.stringify(comments));
+
+			// بازسازي نمايش نظرات
+			displayComments();
+		}
+
+		function displayComments() {
+			// دريافت نظرات از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// ايجاد HTML براي نمايش نظرات
+			var html = '';
+			for (var i = 0; i < comments.length; i++) {
+				html += '<div class="comment">';
+				html += '<h3>' + comments[i].name + '</h3>';
+				html += '<p>' + comments[i].comment + '</p>';
+				html += '</div>';
+			}
+
+			// نمايش نظرات در صفحه
+			document.getElementById('comments-list').innerHTML = html;
+		}
+
+		// نمايش نظرات هنگام بارگيري صفحه
+		document.addEventListener('DOMContentLoaded', function() {
+			displayComments();
+		});
+	</script>
+</head>
+</script>
+</body>
+</html>

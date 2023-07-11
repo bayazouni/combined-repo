@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>
+آهنگ بدون هیچ آشنایی رسیدم شایان اشراقی
+
+</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+<style>.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.comment-content p {
+  margin: 0;
+}</style>
+</head>
+<body>
+	<header>
+		<h1>
+آهنگ بدون هیچ آشنایی رسیدم شایان اشراقی
+
+</h1>
+	</header>
+	<section id="cover">
+		<img src="Screenshot-2022-07-10-173429.jpg" alt="کاور آهنگ اشراقی" style="display: block; margin-left: auto; margin-right: auto;">
+
+		<p style="text-align: center; font-size: 24px;>آهنگ رسیدم</p>
+	</section>
+	<section id="player">
+		<audio controls>
+			<source src="https://dls.music-fa.com/tagdl/1401/Shayan%20Eshraghi%20-%20Ye%20Ja%20Dige%20(320).mp3?_gl=1*1v9gnnn*_ga*MjAzMjA5NDkwMi4xNjg3Nzc2NjMx*_ga_FKQYXDVPQM*MTY4OTA2Njk0Ni4zLjAuMTY4OTA2Njk0Ni4wLjAuMA..&_ga=2.146768372.1122955337.1689066947-2032094902.1687776631" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</section>
+	<section id="download">
+		<h2>دانلود</h2>
+		<ul>
+			<li><a href="https://dls.music-fa.com/tagdl/1401/Shayan%20Eshraghi%20-%20Ye%20Ja%20Dige%20(320).mp3?_gl=1*1v9gnnn*_ga*MjAzMjA5NDkwMi4xNjg3Nzc2NjMx*_ga_FKQYXDVPQM*MTY4OTA2Njk0Ni4zLjAuMTY4OTA2Njk0Ni4wLjAuMA..&_ga=2.146768372.1122955337.1689066947-2032094902.1687776631">کيفيت 128</a></li>
+			<li><a href="https://dls.music-fa.com/tagdl/1401/Shayan%20Eshraghi%20-%20Ye%20Ja%20Dige%20(320).mp3?_gl=1*1v9gnnn*_ga*MjAzMjA5NDkwMi4xNjg3Nzc2NjMx*_ga_FKQYXDVPQM*MTY4OTA2Njk0Ni4zLjAuMTY4OTA2Njk0Ni4wLjAuMA..&_ga=2.146768372.1122955337.1689066947-2032094902.1687776631">کيفيت 320</a></li>
+		</ul>
+	</section>
+	<section id="lyrics">
+		<h2>متن آهنگ بدون هیچ آشنایی رسیدم </h2>
+		<p>جونم بره صدام نمیره ♬♩
+ادامه میدم حتی یه جای دیگه ♬♩
+میخوام ببینه اون که میگفت همیشه ♬♩
+هرکی میگه نمیشه از رو بی عرضگیشه ♬♩
+زندگیم رو حل کردم تو این راه ♬♩
+من این بار همش رو میخوام ♬♩
+پاشدم حتی رو صدمین بار ♬♩
+لفظ نمیام من لفظ رو میگ… ♬♩
+بدون هیچ آشنایی رسیدم ♬♩
+بدون زد و بند و داستانی رسیدم ♬♩
+تو شرایط فاکد آپ رسیدم ♬♩
+ولی مهم اینه که رسیدم رسیدم ♬♩
+بدون هیچ آشنایی رسیدم ♬♩
+بدون زد و بند و داستانی رسیدم ♬♩
+تو شرایط فاکد آپ رسیدم ♬♩
+ولی مهم اینه که رسیدم رسیدم ♬♩
+سلام مامان گندمتم ♬♩
+پشت میکروفون بعد یه ماه ♬♩
+رسیدی اون بالاها ♬♩
+نباشی خسته راه ♬♩
+خب خبر داری که از دل ما ♬♩
+توو ده روز پیر شدم قد یه سال ♬♩
+رفتی و افتادم قعر یه چاه ♬♩
+رفتی و همه چی رفته به گا ♬♩
+دور از تو با کف غربت ♬♩
+میگفتن چجوری کرده جرئت ♬♩
+با اشکهات میکردی بدرقه من رو ♬♩
+حالا یه پا شیر شده بچه گربت ♬♩
+با گرگها میکنه هنوز دست و پنجه نرم ♬♩
+صدام بلنده از توو حنجره ام ♬♩
+مطمئنم باز میبینمت ♬♩
+یکی از همین روزها پشت پنجره ام ♬♩
+بهم یاد دادی حقم رو بگیرم ♬♩
+لاشخور ببینم هنوز هم میارم زود جوش ♬♩
+یاد گرفتم اصلا سمتش نرم ♬♩
+اگه چیزی باحاله و نیست پول توش ♬♩
+کش در اومد توو خیابون ♬♩
+خرج شد توو عشق و حال یه شب پنتم ♬♩
+در آوردم میلیونی پول سیاه ♬♩
+جوری که تو در نیاوردی یه سِنت هم ♬♩
+همه شوتیم، ولی من برعکس روتین ♬♩
+سفت کردم بند پوتین و سپر زدم جلو قلب لوتیم ♬♩
+گذاشتم دو تا پنبه توو گوش ♬♩
+همسفر نمیخوام لق گوگوش ♬♩
+فیک میزنین لای صد تا روتوش ♬♩
+گنگ میکنیم ولی گنگ با روپوش ♬♩
+هنوز هیچکی نی سد راهم ♬♩
+حتی اگه اوضاعم باشه بد درام ♬♩
+حتی اگه ماموره پی رد پام ♬♩
+و حتی اگه هیتلر شم و قتل عام ♬♩
+کم توی دلم عقده نکاشتم ♬♩
+ولی خب به نداشتم ♬♩
+رفتم راه خودم رو ♬♩
+جلوم رو نگرفت از این گنده تر هاشم ♬♩
+از ترک خونه پدری تا ترک آغوش وطن ♬♩
+زندگی سخت بود ولی من مثل مرو ام تابو شکنم ♬♩
+حالا هم که هوا پسه ♬♩
+باز هم بهش چسبیدم ول نمیکنم ♬♩
+راستی مامان یاد داد بهم ♬♩
+گاهی گنگسترها هم گریه میکنن ♬♩
+بدون هیچ آشنایی رسیدم ♬♩
+بدون زد و بند و داستانی رسیدم ♬♩
+توو شرایط رسیدم ♬♩
+ولی مهم اینه که رسیدم، رسیدم ♬♩
+بدون هیچ آشنایی رسیدم ♬♩
+بدون زد و بند و داستانی رسیدم ♬♩
+توو شرایط رسیدم ♬♩
+ولی مهم اینه که رسیدم، رسیدم ♬♩
+جونم بره صدام نمیره ♬♩
+من ادامه میدم حتی یه جای دیگه ♬♩
+میخوام ببینم اون که میگفت نمیشه ♬♩
+هر کی میگه نمیشه از رو بی عرضگیشه ♬♩
+زندگیم رو حل کردم توو این راه ♬♩
+من این بار همش رو میخوام ♬♩
+پاشدم حتی رو صدمین بار ♬♩
+لفظ نمیام من لفظ رو ♬♩
+بدون هیچ آشنایی رسیدم ♬♩
+بدون زد و بند و داستانی رسیدم ♬♩
+تو شرایط فاکد آپ رسیدم ♬♩
+ولی مهم اینه که رسیدم رسیدم ♬♩
+بدون هیچ آشنایی رسیدم ♬♩
+بدون زد و بند و داستانی رسیدم ♬♩
+
+───┤ ♩♬♫♪♭ ├───</p>
+
+
+	</section>
+	<section id="comments">
+	<h2>نظرات</h2>
+	<form onsubmit="event.preventDefault(); saveComment();">
+		<label for="name">نام:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="comment">نظر شما:</label><br>
+		<textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
+		<input type="submit" value="ثبت نظر">
+	</form>
+	<div id="comments-list"></div>
+</section>
+
+<script>
+
+		function saveComment() {
+			var name = document.getElementById('name').value;
+			var comment = document.getElementById('comment').value;
+
+			// چک کردن مقادير خالي
+			if (name.trim() === '' || comment.trim() === '') {
+				alert('لطفا نام و نظر خود را وارد کنيد.');
+				return;
+			}
+
+			// ايجاد شيء براي نظر جديد
+			var newComment = {
+				name: name,
+				comment: comment
+			};
+
+			// دريافت نظرات قبلي از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// اضافه کردن نظر جديد به آرايه نظرات
+			comments.push(newComment);
+
+			// ذخيره نظرات در localStorage
+			localStorage.setItem('comments', JSON.stringify(comments));
+
+			// بازسازي نمايش نظرات
+			displayComments();
+		}
+
+		function displayComments() {
+			// دريافت نظرات از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// ايجاد HTML براي نمايش نظرات
+			var html = '';
+			for (var i = 0; i < comments.length; i++) {
+				html += '<div class="comment">';
+				html += '<h3>' + comments[i].name + '</h3>';
+				html += '<p>' + comments[i].comment + '</p>';
+				html += '</div>';
+			}
+
+			// نمايش نظرات در صفحه
+			document.getElementById('comments-list').innerHTML = html;
+		}
+
+		// نمايش نظرات هنگام بارگيري صفحه
+		document.addEventListener('DOMContentLoaded', function() {
+			displayComments();
+		});
+	</script>
+</head>
+</script>
+</body>
+</html>

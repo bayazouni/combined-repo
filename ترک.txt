@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>
+پیام ترکUzuQaralarآهنگ
+
+</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+<style>.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.comment-content p {
+  margin: 0;
+}</style>
+</head>
+<body>
+	<header>
+		<h1>
+پیام ترکUzuQaralarآهنگ
+
+</h1>
+	</header>
+	<section id="cover">
+		<img src="https://www.musicbazz.ir/wp-content/uploads/2020/12/9-PayamTurk-UzuQaralar.jpg" alt="کاور آهنگ پیام ترک" style="display: block; margin-left: auto; margin-right: auto;">
+
+		<p style="text-align: center; font-size: 24px;>آهنگ اوزو گارالار</p>
+	</section>
+	<section id="player">
+		<audio controls>
+			<source src="http://dl.musicbazz.ir/music/Archives/P/Payam%20Turk/Payam%20Turk%20-%20Uzu%20Qaralar.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</section>
+	<section id="download">
+		<h2>دانلود</h2>
+		<ul>
+			<li><a href="http://dl.musicbazz.ir/music/Archives/P/Payam%20Turk/Payam%20Turk%20-%20Uzu%20Qaralar%20128.mp3">کيفيت 128</a></li>
+			<li><a href="http://dl.musicbazz.ir/music/Archives/P/Payam%20Turk/Payam%20Turk%20-%20Uzu%20Qaralar.mp3">کيفيت 320</a></li>
+		</ul>
+	</section>
+	<section id="lyrics">
+		<h2>متن آهنگ اوزو قرالار پیام تورک</h2>
+		<p>biz burdayiq buralara gəlin / gunumuz gunahdi gonumuz gəlin
+
+həyat çətin paradir dəlil /sizdərin gozunə qara aq dərim
+
+hiphop sənətimdir mənim əlimdə gabar və alinda tərim
+
+əgər deyir bizə allah kərim doqulduqum burda xarabadi dəlil
+
+ey dedim ki gəlir gənim buraxmir gələmi yorgun əlim
+
+bura guneydi qadaqalar olkəsi buralara gələndə gotdu başdi vədə kəlməli gəlin ki beynizi dəlim ala
+
+tək mənfəəti budur buranin duram diyəm doşumu verəm irəli ki deyirəm burda
+
+nənə mən qərib
+
+dorəmi alir hər cura pəri halaldi haramdi kohnəsi təri
+
+vədə
+
+yol vermiriq ozumuzə qəmi
+
+palciq gəmirir bizim bu gəmi
+
+insanlarin hər cura şəri amma damari goruyur didikli dəri
+
+gedə
+
+bidən yox var əgər fəri açiqdir az rəp gətirin bəri
+
+cross_
+
+adimiz olur bizim uzu qaralar ala
+
+insanlara verir dəyər paralar ala
+
+insanlara verir dəyər paralar ala
+
+adimiz uzuz qaralar içimiz aydin
+
+olum haqdirsa bəs nədir mənim gayidim
+
+olum haqdirsa bəs nədir mənim gayidim
+
+adimiz uzuz qaralar içimiz aydin
+
+vers2
+
+adimiz olur uzu qaralar amma kimlərin yaninda
+
+bax bunlar olmasin karinda
+
+tək galacan gunlərin darinda
+
+yaşiyiriq biz illəri ozumuzə gora var gər dəri ətimizə gora
+
+bizim işimizə gora biri mini diyə demiyədi belədi elədi helə helədi elədi belə
+
+yox azdiq edir çox əgər sizdəmi rəp edirsiz biz olaq yox bax
+
+payam gəlirki sancir ox olur azrəp tox azrəp tox
+
+çəkir ax gulaqina bunu tax tataxta repley tax bax
+
+texnikada sizdə laxdir bizdədi burda tac yeimiz taxdir
+
+danişiqimiz butun haqdir
+
+qadaqan olsada rap deyirəm mən gəl məni asdir
+
+amma bil bunu bil bunu bil bunu bil
+
+yoxdu burda gər mənən biri bir gun olar gələr ardima mini
+
+mən olub gedərəm amma galar burda dilimiz diri
+
+cross_
+
+adimiz olur bizim uzu qaralar ala
+
+insanlara verir dəyər paralar ala
+
+insanlara verir dəyər paralar ala
+
+adimiz uzuz qaralar içimiz aydin
+
+olum haqdirsa bəs nədir mənim gayidim
+
+olum haqdirsa bəs nədir mənim gayidim
+
+adimiz uzuz qaralar içimiz aydin
+
+vers3
+
+biz burdayiqaqladanlarin şirin bazarli bu olkələrində
+
+uzu qaralar bizi uzu qarala gorulər bunlar ən fərində
+
+sən bizi gər dərk eləmirsən niyə oluram denən uzu mən qara
+
+çək məni dara çək məni dara
+
+əlində təsbeh cibində para
+
+sənə kim nə diyə bilər denən axi
+
+məni qarala məni qarala
+
+gə əlinə verirəm bəhanələr denən axtarirsan de daha nələr
+
+bax dorəmdəki ihatələr
+
+olumu axtaran iradələr
+
+bil qanunda sənsən idalətdə
+
+liaqətdə sən cisarətdə
+
+vicdanda sənsən şirafətdə
+
+və də giyamətdə sən ibadətdə
+
+sac sagali bas mohuru alnuva duşsun əlivə qizavətlər
+
+borundiyəm zilaltnən
+
+gunah səndə deyir bilirəm millətdədirki varidir iki qat iradatlər
+
+cross_
+
+adimiz olur bizim uzu qaralar ala
+
+insanlara verir dəyər paralar ala
+
+insanlara verir dəyər paralar ala
+
+adimiz uzuz qaralar içimiz aydin
+
+olum haqdirsa bəs nədir mənim gayidim
+
+olum haqdirsa bəs nədir mənim gayidim
+
+adimiz uzuz qaralar içimiz aydin</p>
+
+
+	</section>
+	<section id="comments">
+	<h2>نظرات</h2>
+	<form onsubmit="event.preventDefault(); saveComment();">
+		<label for="name">نام:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="comment">نظر شما:</label><br>
+		<textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
+		<input type="submit" value="ثبت نظر">
+	</form>
+	<div id="comments-list"></div>
+</section>
+
+<script>
+
+		function saveComment() {
+			var name = document.getElementById('name').value;
+			var comment = document.getElementById('comment').value;
+
+			// چک کردن مقادير خالي
+			if (name.trim() === '' || comment.trim() === '') {
+				alert('لطفا نام و نظر خود را وارد کنيد.');
+				return;
+			}
+
+			// ايجاد شيء براي نظر جديد
+			var newComment = {
+				name: name,
+				comment: comment
+			};
+
+			// دريافت نظرات قبلي از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// اضافه کردن نظر جديد به آرايه نظرات
+			comments.push(newComment);
+
+			// ذخيره نظرات در localStorage
+			localStorage.setItem('comments', JSON.stringify(comments));
+
+			// بازسازي نمايش نظرات
+			displayComments();
+		}
+
+		function displayComments() {
+			// دريافت نظرات از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// ايجاد HTML براي نمايش نظرات
+			var html = '';
+			for (var i = 0; i < comments.length; i++) {
+				html += '<div class="comment">';
+				html += '<h3>' + comments[i].name + '</h3>';
+				html += '<p>' + comments[i].comment + '</p>';
+				html += '</div>';
+			}
+
+			// نمايش نظرات در صفحه
+			document.getElementById('comments-list').innerHTML = html;
+		}
+
+		// نمايش نظرات هنگام بارگيري صفحه
+		document.addEventListener('DOMContentLoaded', function() {
+			displayComments();
+		});
+	</script>
+</head>
+</script>
+</body>
+</html>

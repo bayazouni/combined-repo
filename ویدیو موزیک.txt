@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>ویدیو موزیک</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+<style>.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.comment-content p {
+  margin: 0;
+}
+
+	#video video {
+		width: 100%;
+		height: auto;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<h1>ویدیو موزیک</h1>
+	</header>
+	<section id="video1">
+		<video controls>
+			<source src="9000.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</section>
+<section id="video2">
+		<video controls>
+			<source src="12000.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</section>
+
+<section id="video1">
+		<video controls>
+			<source src="14001.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</section>
+<section id="video1">
+		<video controls>
+			<source src="19000.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</section>
+
+<section id="video1">
+		<video controls>
+			<source src="18000.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</section>
+	<section id="comments">
+		<h2>نظرات</h2>
+		<form onsubmit="event.preventDefault(); saveComment();">
+			<label for="name">نام:</label>
+			<input type="text" id="name" name="name"><br><br>
+			<label for="comment">نظر شما:</label><br>
+			<textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
+			<input type="submit" value="ثبت نظر">
+		</form>
+		<div id="comments-list"></div>
+	</section>
+
+	<script>
+		function saveComment() {
+			var name = document.getElementById('name').value;
+			var comment = document.getElementById('comment').value;
+
+			// چک کردن مقادیر خالی
+			if (name.trim() === '' || comment.trim() === '') {
+				alert('لطفا نام و نظر خود را وارد کنید.');
+				return;
+			}
+
+			// ایجاد شیء برای نظر جدید
+			var newComment = {
+				name: name,
+				comment: comment
+			};
+
+			// دریافت نظرات قبلی از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// اضافه کردن نظر جدید به آرایه نظرات
+			comments.push(newComment);
+
+			// ذخیره نظرات در localStorage
+			localStorage.setItem('comments', JSON.stringify(comments));
+
+			// بازسازی نمایش نظرات
+			displayComments();
+		}
+
+		function displayComments() {
+			// دریافت نظرات از localStorage
+			var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+			// ایجاد HTML برای نمایش نظرات
+			var html = '';
+			for (var i = 0; i < comments.length; i++) {
+				html += '<div class="comment">';
+				html += '<h3>' + comments[i].name + '</h3>';
+				html += '<p>' + comments[i].comment + '</p>';
+				html += '</div>';
+			}
+
+			// نمایش نظرات در صفحه
+			document.getElementById('comments-list').innerHTML = html;
+		}
+
+		// نمایش نظرات هنگام بارگیری صفحه
+		document.addEventListener('DOMContentLoaded', function() {
+			displayComments();
+		});
+	</script>
+</body>
+</html>
