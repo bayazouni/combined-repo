@@ -206,7 +206,7 @@ width: 90px;
 <div class="content">
 <div class="card">
 <a href="خدای رپ.html">
-  <img src="artworks-000099142504-1qz108-t500x500.jpg" alt="">
+  <img src="https://vipremix.ir/wp-content/uploads/2021/02/artworks-000303159348-58ofr7-t500x500-300x300.jpg" alt="">
 </a>
 <h3>امینمrap god آهنگ</h3>
 </div>
@@ -218,13 +218,13 @@ width: 90px;
 </div>
 <div class="card">
   <a href="سه شنبه.html">
-  <img src="Tupac_Amaru_Shakur2.jpg" alt="">
+  <img src="https://upload.wikimedia.org/wikipedia/fa/thumb/b/b5/Tupac_Amaru_Shakur2.jpg/220px-Tupac_Amaru_Shakur2.jpg" alt="">
 </a>
 <h3>2pac & Burak Yeter - Tuesday آهنگ</h3>
 </div>
 <div class="card">
 <a href="بازم کلان.html">
-  <img src="soroosh-hichkas-reza-pishro-bazam-kalan.jpg" alt="">
+  <img src="https://dl.pinkmusic1.ir/uploads/2022/10/Hichkas-Pishro-Bazam-Kalan-PinkMusic.jpg" alt="">
 </a>
 <h3>آهنگ بازم کلان هیچکس-پیشرو</h3>
 </div>
@@ -236,7 +236,7 @@ width: 90px;
 </div>
 <div class="card">
 <a href="یاس.html">
-  <img src="Yas-Man-Mijangam-RadicalMusic.Ir.jpg" alt="">
+  <img src="http://radicalmusic.ir/wp-content/uploads/2019/09/Yas-Man-Mijangam-RadicalMusic.Ir.jpg" alt="">
 </a>
 <h3>آهنگ من میجنگم یاس</h3>
 </div>
